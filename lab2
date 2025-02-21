@@ -62,3 +62,72 @@ riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ wc file1.txt
 riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ wc -l file1.tx
 t
 9 file1.txt
+new/' file1.txt
+hi I am riya
+hi I am riya
+hi I am riya
+riyaganeshshanbhag
+hi I am riya
+1234
+87764424
+id:2345109
+
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ sed -e 's/old/new/' file1.txt
+hi I am riya
+hi I am riya
+hi I am riya
+riyaganeshshanbhag
+hi I am riya
+1234
+87764424
+id:2345109
+new
+I am new
+I will be new
+
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ sed -i -e 's/old/new/g' file1.txt
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ tr '[a-z]' '[A-Z]' < file1.txt
+HI I AM RIYA
+HI I AM RIYA
+HI I AM RIYA
+RIYAGANESHSHANBHAG
+HI I AM RIYA
+1234
+87764424
+ID:2345109
+NEW
+I AM NEW
+I WILL BE NEW
+
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ tr '[a-z]' '[A-Z]' file1.txt
+tr: extra operand ‘file1.txt’
+Try 'tr --help' for more information.
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ echo this is riya
+this is riya
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ echo -n "hello"
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ echo -n "Hello, world!"rld!"
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ echo -n "Hello, world!"ello, world!"
+Hello, world!riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ e i am riya"lo
+hello i am riyariyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'.
+5+3
+8
+7*2
+14
+10/3
+3
+bc -l
+0
+10/3
+3
+quit
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ bc -l
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'.
+10/3
+3.33333333333333333333
