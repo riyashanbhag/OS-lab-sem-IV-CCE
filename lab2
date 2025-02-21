@@ -1,0 +1,64 @@
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ grep riya file
+1.txt
+hi I am riya
+hi I am riya
+hi I am riya
+riyaganeshshanbhag
+hi I am riya
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ grep -E riya f
+ile1.txt
+hi I am riya
+hi I am riya
+hi I am riya
+riyaganeshshanbhag
+hi I am riya
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ grep -E [0-4]
+file1.txt
+1234
+87764424
+id:2345109
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ grep -E [a-zA-
+Z] file1.txt
+hi I am riya
+hi I am riya
+hi I am riya
+riyaganeshshanbhag
+hi I am riya
+id:2345109
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ sort file1.txt
+
+1234
+87764424
+hi I am riya
+hi I am riya
+hi I am riya
+hi I am riya
+id:2345109
+riyaganeshshanbhag
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ sort -r file1.
+txt
+riyaganeshshanbhag
+id:2345109
+hi I am riya
+hi I am riya
+hi I am riya
+hi I am riya
+87764424
+1234
+
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ sort -n file1.
+txt
+
+hi I am riya
+hi I am riya
+hi I am riya
+hi I am riya
+id:2345109
+riyaganeshshanbhag
+1234
+87764424
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ wc file1.txt
+  9  20 106 file1.txt
+riyashanbhag@Riya:/mnt/c/Users/riysh/OneDrive/Desktop/ubuntu$ wc -l file1.tx
+t
+9 file1.txt
